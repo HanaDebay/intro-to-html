@@ -1,0 +1,19 @@
+
+.container {
+    border: 2px solid green;
+}
+.row {
+    border: 2px dotted grey;
+}
+
+.col {
+    border: 2px solid red;
+} 
+
+#martha {
+    background-color: blueviolet;
+}
+
+#hana {
+    margin-top: 40px;
+}

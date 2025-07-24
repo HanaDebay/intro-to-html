@@ -1,0 +1,25 @@
+p {
+    color: brown;
+}
+
+
+/* Colors are defined as RGB */
+h1 {
+    /* color: rgb(122,105,109);  */
+    color: #7A696D;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+
+#monica-kore {
+    background-color: #7A696D;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #7A696D;
+    color: black;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+       .pageForm {
+        margin-left: 50px;
+        padding: 10px;
+        border-radius: 10px;
+       }
+
+       #registerForm  {
+        background-color: aquamarine;
+       }
+
+       #loginForm {
+        background-color: bisque;
+       }
+
+       .allanSomething {
+        color: brown;
+       }
+
+       #passwordLabel {
+        color: green;
+       }
+
+    </style>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <h3>Please register here</h3>
+    <form id="registerForm" class="pageForm" action="">
+        <label for="fname" class="allanSomething">First Name</label>
+        <input type="text" name="fname" id="fname">
+        <br><br>
+
+        <label for="lname" class="allanSomething">Last Name</label>
+        <input type="text" name="lname" id="lname">
+        <br><br>
+
+        <label for="lname" class="allanSomething">DOB</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="password" id="passwordLabel">Password</label>
+        <input type="text" id="password" name="password">
+
+        <br><br>
+        <label for="pet-select">Choose a pet:</label>
+
+        <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+        <br><br>
+
+
+        <label for="football">Do you watch football</label>
+
+        <select name="pets" id="football">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Yes</option>
+            <option value="cat">No</option>
+            
+        </select>
+        <br><br>
+
+        <input type="submit" value="Register">
+
+        <!-- create a button -->
+        <button type="button" id="clear-button">Clear</button>
+
+       
+
+    </form>
+ <h3>Please Login here</h3>
+     <form id="loginForm" class="pageForm" action="">
+        <label for="fname" class="">First Name</label>
+        <input type="text" name="fname" id="fname">
+        <br><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname">
+        <br><br>
+
+        <input type="submit" value="Login">
+
+    </form>
+
+   
+
+    <script>
+        // add some logic so that when a user click 
+        // 
+    </script>
+</body>
+
+</html>

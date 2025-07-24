@@ -1,0 +1,20 @@
+p {
+    color: blue;
+    text-align: justify;
+    font-size: 15px;
+    font-style: italic;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: brown;
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+    color: orange;
+}
